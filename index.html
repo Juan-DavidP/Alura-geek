@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Alura geek</title>
+</head>
+
+<body>
+    <header>
+        <img src="assets/corazones.png" alt="Corazones">
+        <h1>AluraGeek</h1>
+    </header>
+    <main class="main-container">
+        <section class="list-products">
+            <h1>Mis productos:</h1>
+            <div data-product class="products-container">
+
+            </div>
+        </section>
+        <section class="add-products">
+            <h1>Agregar <br>producto:</h1>
+            <form class="form-container" data-form>
+                <input data-name placeholder="Nombre del producto" type="text">
+                <input data-price placeholder="Precio del producto" type="text">
+                <input data-image placeholder="Imagen del producto" type="text">
+
+                <div class="button-container">
+                    <button type="submit" class="button-submit" id="buttonSubmit">Enviar</button>
+                    <button type="reset" class="button-reset" id="buttonReset">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer-container">
+        <div class="footer-logo">
+            <img src="assets/corazones.png" alt="Corazones">
+            <h1>AluraGeek</h1>
+        </div>
+        <div class="footer-info">
+            <p class="">Desarrollador por Juan David Pelaez Villa</p>
+            <p class="sponsor">Alura LATAM - 2024</p>
+        </div>
+    </footer>
+
+</body>
+<script type="module" src="js/controllers/main.js"></script>
+
+</html>

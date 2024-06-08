@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Dart vader",
+      "price": "50",
+      "image": "https://pepeganga.vtexassets.com/arquivos/ids/894330/100877153-1.png?v=638122405363600000"
+    },
+    {
+      "id": "2",
+      "name": "Hulk",
+      "price": "60",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdXzY2b2vQL0clZq_mql-lgEe-2CCufNRcNA&s"
+    },
+    {
+      "id": "c098",
+      "name": "capitan america",
+      "price": "50",
+      "image": "https://exitocol.vteximg.com.br/arquivos/ids/20817901/Figuras-De-Accion-MARVEL-Olympus-3339907_a.jpg"
+    },
+    {
+      "id": "71dc",
+      "name": "Dead pool",
+      "price": "250",
+      "image": "https://toogeek.co/wp-content/uploads/2024/03/col3012.jpg"
+    }
+  ]
+}
