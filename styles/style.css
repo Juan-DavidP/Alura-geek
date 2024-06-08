@@ -24,7 +24,7 @@ header img {
 header h1 {
     color: white;
     font-size: 32px;
-    margin-left: -25px;
+    margin-left: -20px;
 }
 
 main {
@@ -32,7 +32,11 @@ main {
     flex-direction: column-reverse;
 }
 
-.list-products{
+h1 {
+    font-family: "Press Start 2P", system-ui;
+}
+
+.list-products {
     overflow-y: auto;
     /* height: 50vh; */
 }
@@ -116,6 +120,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .add-products h1 {
@@ -180,7 +185,7 @@ footer img {
 }
 
 .footer-logo h1 {
-    margin-left: -20px;
+    margin-left: -10px;
 }
 
 .footer-info {
@@ -209,7 +214,7 @@ footer img {
         width: 50vw;
     }
 
-    .products-container{
+    .products-container {
         flex-wrap: wrap;
     }
 
@@ -218,7 +223,7 @@ footer img {
         flex-direction: row;
     }
 
-    .form-container input{
+    .form-container input {
         font-size: 22px;
     }
 
